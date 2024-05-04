@@ -11,7 +11,7 @@
         width: 100%;
         // padding: 10px;
         flex-direction: column;
-        gap: 5px;
+        gap: 0px;
     }
     .textContainer{
         flex: 1;
@@ -29,7 +29,7 @@
             line-height: 88px;
             @include mobile{
                 font-size: 36px;
-
+                line-height: 30px;
             }
         }
         span{
@@ -40,7 +40,7 @@
         flex:1;
         position: relative;
         @include mobile{
-            padding: 50px;
+            padding: 15px 50px 0 50px;
             width: 100%;
 
         }
@@ -58,10 +58,12 @@
             }
         }
         form{
-
             display: flex;
             flex-direction: column;
             gap: 20px;
+            @include mobile{
+                gap: 14px;
+            }
         }
         input,textarea{
             padding: 20px;
@@ -70,7 +72,7 @@
             color: white;
             border-radius: 5px;
             @include mobile{
-                padding: 10px;
+                padding: 7px;
             }
         }
         button{

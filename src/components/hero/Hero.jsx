@@ -1,7 +1,7 @@
 import { animate,motion } from "framer-motion"
 import "./hero.scss"
 import React from 'react'
-import cv from "../../../public/hero.jpg"
+import cv from "../../../public/aman.mern.pdf"
 
 const textVariants={
     initial:{
@@ -57,5 +57,3 @@ function Hero() {
 }
 
 export default Hero
-
-
