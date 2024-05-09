@@ -55,7 +55,7 @@ function Contact() {
             </motion.div>
             <motion.div className='item'>
                 <h2>phone</h2>
-                <span>+91 7042005072</span>
+                <span>+91 xxxxxxxx</span>
             </motion.div>
             <motion.div className='item'>
                 <h2>Address</h2>
