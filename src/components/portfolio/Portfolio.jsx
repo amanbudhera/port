@@ -4,22 +4,33 @@ import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 
 const items = [{
     id:1,
+    title:"WebClass Tutorial",
+    img:"webclass1.png",
+    desc:"Ed-tech platform using MERN stack with authentication and authorization and used CURD operations",
+    link:"https://github.com/amanbudhera/mern-webclass",
+    link2:"https://github.com/amanbudhera/mern-webclass"
+},{
+    id:2,
     title:"Real Estate Website",
     img:"real.png",
     desc:"Responsive web design with animated effact using frame motion \n tool: ReactJs, Motion ",
-    link:"https://realestate-one-cyan.vercel.app/"
-},{
-    id:2,
+    link:"https://realestate-one-cyan.vercel.app/",
+    link2:"https://github.com/amanbudhera/realestate"
+},
+{
+    id:3,
     title:"E-commerce Website",
     img:"/e-com.png",
     desc:"Mullite page e-commerce website with user friendly web design and responsive to all screen template \n tools: HTML, CSS and JS",
-    link:"https://e-commerce-one-jade.vercel.app/"
+    link:"https://e-commerce-one-jade.vercel.app/",
+    link2:"https://github.com/amanbudhera/e-commerce"
 },{
-    id:3,
+    id:4,
     title:"todo list",
     img:"/todo.png",
     desc:"Todo list page using react context api with local storage to store data and features to edit list, delete and mark. \n tools: Reactjs and Tailwind",
-    link:"https://todo-list-001-red.vercel.app/"
+    link:"https://todo-list-001-red.vercel.app/",
+    link2:"https://github.com/amanbudhera/todo-list-001"
 },
 ];
 
@@ -44,6 +55,7 @@ const Single = ({item})=>{
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
                         <a href={item.link}><button>See Demo</button></a>
+                        <a href={item.link2}><button>Github</button></a>
                     </motion.div>
                 </div>
             </div>
