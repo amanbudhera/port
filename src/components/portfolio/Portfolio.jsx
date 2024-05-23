@@ -7,7 +7,7 @@ const items = [{
     title:"WebClass Tutorial",
     img:"webclass1.png",
     desc:"Ed-tech platform using MERN stack with authentication and authorization and used CURD operations",
-    link:"https://github.com/amanbudhera/mern-webclass",
+    link:"https://mern-webclass-client.vercel.app/",
     link2:"https://github.com/amanbudhera/mern-webclass"
 },{
     id:2,
@@ -55,7 +55,7 @@ const Single = ({item})=>{
                         <h2>{item.title}</h2>
                         <p>{item.desc}</p>
                         <a href={item.link}><button>See Demo</button></a>
-                        <a href={item.link2}><button>Github</button></a>
+                        <a href={item.link2}><button>Code</button></a>
                     </motion.div>
                 </div>
             </div>
